@@ -32,18 +32,22 @@ header button {
     text-align: start;
     margin: 12px auto;
     border-radius: 12px;
-    transition: .4s;
+    transition: .6s;
     color: black;
     font-weight: bolder;
     font-size: 18px;
 }
 
+/* efeito de sombra no estado hover dos btns */
 header button:hover {
     cursor: pointer;
     background-color: #00c1d6;
+    box-shadow: 0px 0px 12px 3px rgb(33, 229, 255);
 }
 
 .btn-icon {
     width: 32px;
     margin: 0px 12px;
 }
+
+
