@@ -1,0 +1,17 @@
+/* Paleta de cores
+#029DAF -> white
+#E5D599 -> black
+#FFC219 -> black
+#F07C19 -> black
+#E32551 -> white
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5D599;
+}

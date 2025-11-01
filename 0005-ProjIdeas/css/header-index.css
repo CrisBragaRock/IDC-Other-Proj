@@ -1,0 +1,49 @@
+header {
+    background-color: #FFC219;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* ajustes logo */
+.logo-box {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 320px;
+}
+
+/* ajustes btns menu */
+
+header button {
+    background-color: #029DAF;
+    border: none;
+    outline: none;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    text-align: start;
+    margin: 12px auto;
+    border-radius: 12px;
+    transition: .4s;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: #00c1d6;
+}
+
+.btn-icon {
+    width: 32px;
+    margin: 0px 12px;
+}
